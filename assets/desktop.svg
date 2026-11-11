@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="DejaVu Sans">
+  <rect width="1600" height="900" fill="#F4F1EC"/>
+  <!-- monitor -->
+  <rect x="250" y="70" width="1100" height="640" rx="28" fill="#23272F"/>
+  <rect x="274" y="94" width="1052" height="592" rx="10" fill="#DCE6F2"/>
+  <rect x="700" y="710" width="200" height="70" fill="#3A404B"/>
+  <rect x="560" y="780" width="480" height="26" rx="13" fill="#23272F"/>
+  <!-- taskbar -->
+  <rect x="274" y="640" width="1052" height="46" fill="#2E3440"/>
+  <rect x="294" y="652" width="22" height="22" rx="4" fill="#8FA3BF"/>
+  <rect x="330" y="652" width="22" height="22" rx="4" fill="#8FA3BF"/>
+  <rect x="366" y="652" width="22" height="22" rx="4" fill="#8FA3BF"/>
+  <text x="1300" y="670" font-size="16" fill="#E6EAF0" text-anchor="end">10:24</text>
+  <text x="1232" y="670" font-size="15" font-weight="bold" fill="#E6EAF0" text-anchor="end">עב</text>
+  <!-- tray icon -->
+  <g transform="translate(1158,649) scale(0.0273)">
+    <rect x="32" y="32" width="960" height="960" rx="190" fill="#C8202F"/>
+    <text x="300" y="470" font-weight="bold" font-size="400" fill="#fff" text-anchor="middle">A</text>
+    <text x="724" y="880" font-weight="bold" font-size="400" fill="#fff" text-anchor="middle">א</text>
+  </g>
+  <circle cx="1172" cy="663" r="30" fill="none" stroke="#C8202F" stroke-width="4"/>
+  <!-- window -->
+  <rect x="360" y="140" width="880" height="450" rx="12" fill="#fff" stroke="#B9C4D3" stroke-width="2"/>
+  <rect x="360" y="140" width="880" height="48" rx="12" fill="#EEF2F7"/>
+  <rect x="360" y="170" width="880" height="18" fill="#EEF2F7"/>
+  <circle cx="390" cy="164" r="8" fill="#C9D1DC"/><circle cx="416" cy="164" r="8" fill="#C9D1DC"/><circle cx="442" cy="164" r="8" fill="#C9D1DC"/>
+  <text x="1210" y="171" font-size="18" fill="#5B6675" text-anchor="end">הודעה חדשה</text>
+  <!-- before -->
+  <text x="1200" y="246" font-size="20" fill="#8A93A0" text-anchor="end">מה שהקלדתם</text>
+  <rect x="400" y="262" width="800" height="72" rx="10" fill="#FBECEC" stroke="#E7B7BB" stroke-width="2"/>
+  <text x="424" y="310" font-size="34" fill="#A33" font-family="DejaVu Sans Mono">akuo nv akunl</text>
+  <!-- arrow -->
+  <g stroke="#C8202F" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M800 350 V398"/><path d="M780 380 L800 402 L820 380"/>
+  </g>
+  <text x="840" y="386" font-size="20" fill="#C8202F" font-weight="bold">רווח</text>
+  <!-- after -->
+  <text x="1200" y="446" font-size="20" fill="#8A93A0" text-anchor="start" direction="rtl">מה ש-KeyFlip השאיר על המסך</text>
+  <rect x="400" y="462" width="800" height="72" rx="10" fill="#EAF6EC" stroke="#A9D5B0" stroke-width="2"/>
+  <text x="1176" y="510" font-size="34" fill="#1E6B33" text-anchor="start" direction="rtl">שלום מה שלומך</text>
+  <!-- caption -->
+  <text x="800" y="860" font-size="34" font-weight="bold" fill="#23272F" text-anchor="middle" direction="rtl">הקלדתם בשפה הלא נכונה? KeyFlip מתקן לבד וממשיך איתכם</text>
+</svg>

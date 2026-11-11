@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <AssemblyName>KeyFlip</AssemblyName>
+    <RootNamespace>KeyFlip</RootNamespace>
+    <ApplicationIcon>Resources\on.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>0.3.0</Version>
+    <Product>KeyFlip</Product>
+    <Description>Fixes text typed in the wrong keyboard language (Hebrew/English)</Description>
+    <Company>KeyFlip</Company>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\en.txt.gz" LogicalName="KeyFlip.en.txt.gz" />
+    <EmbeddedResource Include="Resources\he.txt.gz" LogicalName="KeyFlip.he.txt.gz" />
+    <EmbeddedResource Include="Resources\on.ico" LogicalName="KeyFlip.on.ico" />
+    <EmbeddedResource Include="Resources\off.ico" LogicalName="KeyFlip.off.ico" />
+    <EmbeddedResource Include="Resources\flash.ico" LogicalName="KeyFlip.flash.ico" />
+  </ItemGroup>
+</Project>

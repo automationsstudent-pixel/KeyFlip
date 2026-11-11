@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>EngineSim</AssemblyName>
+    <RootNamespace>KeyFlip</RootNamespace>
+    <!-- The real engine sources are compiled in as they are; only src/Native.cs is replaced by FakeWindows.cs. -->
+    <SrcDir Condition="'$(SrcDir)' == ''">../src</SrcDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(SrcDir)/Core.cs" />
+    <Compile Include="$(SrcDir)/Engine.cs" />
+    <Compile Include="$(SrcDir)/Config.cs" />
+  </ItemGroup>
+</Project>
