@@ -2,7 +2,7 @@
 
 <img src="assets/logo.png" width="96" alt="KeyFlip logo">
 
-**[מדריך בעברית ←](README.he.md)**
+**[מדריך בעברית ←](README.he.md)** · **[Download KeyFlip.exe](https://github.com/automationsstudent-pixel/KeyFlip/raw/main/dist/KeyFlip.exe)**
 
 ![KeyFlip turns akuo nv akunl into שלום מה שלומך](assets/desktop-illustration.png)
 
