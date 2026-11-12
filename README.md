@@ -38,11 +38,9 @@ KeyFlip leaves a word alone when it's a real word in the language you typed it i
 
 The files are kept in `%APPDATA%\KeyFlip\`.
 
-## What changed in 0.3 (smoother fixes)
+## More to know
 
-Earlier versions deleted the wrong word, then waited for the keyboard to switch, then typed the corrected word. The word was missing from the screen during that wait, which looked like text disappearing and coming back. Version 0.3 changes the order:
-
-- KeyFlip now switches the keyboard first (nothing visible happens), then deletes and retypes in one step. The word changes in place.
+- KeyFlip switches the keyboard first (nothing visible happens), then deletes and retypes in one step. The word changes in place.
 - It reads the keyboard language from the control you are typing in, not from the window frame around it. In apps where those two differ, older versions kept seeing the old language and re-typed word after word.
 - If an app won't confirm the keyboard switch, KeyFlip waits for it once (up to 0.4 s) and after that only briefly in that window.
 - If an app changes the keyboard back by itself after a fix (some editors pick the keyboard to match nearby text), KeyFlip switches it again before your next letter, and in that app it goes back to the old order (delete, switch, type) for the rest of the session.
