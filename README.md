@@ -65,3 +65,7 @@ The files are kept in `%APPDATA%\KeyFlip\`.
 - **Actions it performs:** `WM_INPUTLANGCHANGEREQUEST` to switch the focused window's keyboard layout, then a single `SendInput` call (backspaces + Unicode characters) to replace the text. It writes to `HKCU\…\Run` only when the user turns on "Start with Windows".
 - **Safety:** it never acts in password fields (detected through the window style and UI Automation `IsPassword`), in elevated processes, or in excluded apps (RDP, Citrix, password managers by default).
 - **Source:** the full C# source is included (`src/`, about 1,900 lines) with the detection tests (`tests/`) and an engine simulator (`sim/`). The simulator compiles the real `Engine.cs` against a stand-in for the Windows input system and measures, per scenario, how long text is missing from the screen during a fix; run it with `dotnet run -c Release --project sim`. Build the app with `dotnet build -c Release src/KeyFlip.csproj` (.NET SDK 8+). The exe isn't code-signed. IT can sign it with the company certificate or build it from source themselves.
+
+## License
+
+[MIT](LICENSE)
